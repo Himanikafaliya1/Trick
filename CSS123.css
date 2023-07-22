@@ -1,0 +1,72 @@
+body {
+    background-color: hwb(210 47% 11%);
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsl(321, 44%, 66%);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h1 {
+    color: #333;
+  }
+  
+  .Temperature-icon {
+    font-size: 40px;
+    color: hsl(65, 95%, 50%);
+    vertical-align: middle;
+  }
+  
+  #celsius,
+  #fahrenheit,
+  #kelvin {
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #101010;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: hsl(65, 95%, 50%);
+  }
+  
+  .icon {
+    font-size: 18px;
+    color: #0f0f0f;
+  }
+  
+  .button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: hsl(0, 78%, 45%);
+    color: hsl(150, 62%, 44%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: rgb(90, 75, 161);
+  }
+  
